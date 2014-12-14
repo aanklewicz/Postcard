@@ -40,6 +40,10 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         
         // Clears out the text to blank, and hides the keyboard.
+        enterNameTextField.text = ""
+        enterNameTextField.resignFirstResponder()
+
+        // Clears out the text to blank, and hides the keyboard.
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         
