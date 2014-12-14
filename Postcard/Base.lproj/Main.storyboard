@@ -30,14 +30,6 @@
                                     <rect key="frame" x="16" y="158" width="291" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jgl-89-aUN">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="207" width="291" height="30"/>
-                                </variation>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-Mq-wDT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Nick It!">
@@ -73,7 +65,6 @@
                             <mask key="subviews">
                                 <exclude reference="p7X-z0-6mj"/>
                                 <exclude reference="LQn-QW-Wg0"/>
-                                <exclude reference="jgl-89-aUN"/>
                                 <exclude reference="YlH-Mq-wDT"/>
                                 <exclude reference="qXd-pc-hkb"/>
                                 <exclude reference="aa4-8Y-hot"/>
@@ -83,7 +74,6 @@
                             <mask key="subviews">
                                 <include reference="p7X-z0-6mj"/>
                                 <include reference="LQn-QW-Wg0"/>
-                                <include reference="jgl-89-aUN"/>
                                 <include reference="YlH-Mq-wDT"/>
                                 <include reference="qXd-pc-hkb"/>
                                 <include reference="aa4-8Y-hot"/>
