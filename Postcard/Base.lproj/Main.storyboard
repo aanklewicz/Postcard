@@ -110,6 +110,7 @@
                         <viewControllerLayoutGuide type="bottom" id="w7V-DQ-Im4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0n3-0m-UGz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nick trek.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eyj-ke-3vJ">

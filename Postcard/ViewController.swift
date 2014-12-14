@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         enterMessageTextField.resignFirstResponder()
         
         // Here we set the button text to "Mail Sent" rather than "Nick It!"
+        // Test
         nickItButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     }
 
