@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
@@ -27,6 +28,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func nickItButtonPressed(sender: UIButton) {
+        // Unhides nameLabel, sets it to the value of enterNameTextField with a To: prepending it, and makes it blue.
+        nameLabel.hidden = false
+        nameLabel.text =  "To: " + enterNameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
+        
+        
         // Unhides messageLabel, sets it to the value of enterMessageTextField, and makes it red.
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
